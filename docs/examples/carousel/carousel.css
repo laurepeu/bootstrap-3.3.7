@@ -17,7 +17,7 @@ body {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
-  height: 80px;
+  height: 100px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@ body {
 
 /* Logo */
 .navbar-wagon-brand img {
-  height: 70px;
+  height: 90px;
 }
 
 /* User Avatar */
@@ -208,6 +208,7 @@ body {
 }
 .btn-medium:hover {
   opacity: 1;
+  font-weight: 300;
   text-decoration: none;
   color: #c4833e;
 }
@@ -216,12 +217,12 @@ body {
   color: #999999;
   border: 1px solid #999999;
   padding: 10px 15px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   font-weight: lighter;
   opacity: 0.6;
 }
 .btn-medium-carousel:hover {
-  opacity: 1;
+  /* opacity: 1; */
   text-decoration: none;
   color: #999999;
 }
@@ -232,6 +233,7 @@ body {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
+    color: rgba(0,0,0,0.3);
   }
   .navbar-wrapper .container {
     padding-right: 15px;
