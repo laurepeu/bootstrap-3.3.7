@@ -150,38 +150,8 @@ body {
     margin-right: 5px;
     margin-left: 5px;
   }
+
   
-  /* button
-  ------------------------- */
-  
-  
-  .btn-medium {
-    color: #999999;
-    padding: 5px 5px;
-    border-radius: 50px;
-    font-weight: lighter;
-    opacity: 0.9;
-  }
-  .btn-medium:hover {
-    opacity: 1;
-    font-weight: 300;
-    text-decoration: none;
-    color: #c4833e;
-  }
-  
-  .btn-medium-carousel{
-    color: #999999;
-    border: 1px solid #999999;
-    padding: 10px 15px;
-    /* border-radius: 50px; */
-    font-weight: lighter;
-    opacity: 0.6;
-  }
-  .btn-medium-carousel:hover {
-    /* opacity: 1; */
-    text-decoration: none;
-    color: #999999;
-  }
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
@@ -261,3 +231,12 @@ body {
   .card-link:hover {
     opacity: 0.1;
   }
+
+  .row {
+   margin-top: 20px;
+   margin-bottom: 50px;
+  }
+
+  .featurette-divider{
+    margin-top: 50px;
+}
